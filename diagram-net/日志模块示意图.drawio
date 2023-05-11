@@ -1,9 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2023-05-11T09:04:18.994Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.2.9" etag="kIvp75PBJSmth-83ffrw" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-11T09:28:23.634Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="h7ZLV3I3nL5Kqg6VLjYM" version="21.2.9" type="github">
   <diagram name="第 1 页" id="DFVhCy3DZBjyUaQt6JkN">
-    <mxGraphModel>
+    <mxGraphModel dx="1026" dy="661" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RcY3kQNC6o7R8cpTBs-r-18" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;Queue&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;add k1 v1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;delete k2&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;container=0;" vertex="1" parent="1">
+          <mxGeometry x="518" y="270" width="100" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="RcY3kQNC6o7R8cpTBs-r-21" value="Muduo库&lt;br style=&quot;font-size: 12px;&quot;&gt;Epoll + 多线程" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="184" y="275" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="RcY3kQNC6o7R8cpTBs-r-22" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.67;dx=20;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="285" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RcY3kQNC6o7R8cpTBs-r-23" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.67;dx=20;notch=0;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="57" y="410" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RcY3kQNC6o7R8cpTBs-r-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RcY3kQNC6o7R8cpTBs-r-18" target="RcY3kQNC6o7R8cpTBs-r-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RcY3kQNC6o7R8cpTBs-r-27" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;set k2 v2&lt;/span&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;container=0;" vertex="1" parent="1">
+          <mxGeometry x="518" y="381" width="100" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="RcY3kQNC6o7R8cpTBs-r-28" value="log" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="762" y="359" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RcY3kQNC6o7R8cpTBs-r-29" value="数据管理系统" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="218" y="224" width="132" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RcY3kQNC6o7R8cpTBs-r-30" value="网络请求" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="69" y="277" width="66" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RcY3kQNC6o7R8cpTBs-r-31" value="结果响应" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="84" y="399" width="66" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RcY3kQNC6o7R8cpTBs-r-32" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.67;dx=20;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="401" y="345" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RcY3kQNC6o7R8cpTBs-r-33" value="多个连接线程写" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="381" y="327" width="102" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RcY3kQNC6o7R8cpTBs-r-35" value="异步队列" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="529" y="226" width="78" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RcY3kQNC6o7R8cpTBs-r-36" value="本地日志存储" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="768" y="315" width="108" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RcY3kQNC6o7R8cpTBs-r-38" value="1.队列实现线程安全&lt;br&gt;2. 进行线程间通信" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="636" y="473" width="124" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="RcY3kQNC6o7R8cpTBs-r-39" value="成功执行指令" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="384" y="395" width="90" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RcY3kQNC6o7R8cpTBs-r-40" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.67;dx=20;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="634" y="350" width="114" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RcY3kQNC6o7R8cpTBs-r-41" value="后台守护进程读写" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="623" y="327" width="114" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
